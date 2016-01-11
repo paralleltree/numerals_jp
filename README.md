@@ -1,5 +1,7 @@
 # numerals_jp
 
+[![Build Status](https://travis-ci.org/paralleltree/numerals_jp.svg?branch=master)](https://travis-ci.org/paralleltree/numerals_jp)
+
 A number converting library for japanese.
 
 This library converts between japanese numerals which are often used  
