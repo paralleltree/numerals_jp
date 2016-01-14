@@ -32,14 +32,14 @@ require 'numerals_jp'
 
 ### Convert from japanese numerals
 ```ruby
-"三十六".convert_from_jp_nums
+"三十六".jp_to_num
 # => "36"
 ```
 
 This method just replaces japanese numerals with arabic numerals.
 
 ```ruby
-"十二月三十一日".convert_from_jp_nums
+"十二月三十一日".jp_to_num
 # => "12月31日"
 ```
 
