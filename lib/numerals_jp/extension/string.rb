@@ -1,5 +1,5 @@
 class String
-  def convert_from_jp_nums
-    NumeralsJp::Converter.convert_from_jp_nums(self)
+  def jp_to_num
+    NumeralsJp::StringConverter.jp_to_num(self)
   end
 end
