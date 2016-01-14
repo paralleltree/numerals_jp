@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe String do
   describe '#convert_from_jp_nums' do
-    context 'only japanese numerals' do
+    context 'when only japanese numerals' do
       it 'converts from japanese numerals' do
         expect("一".convert_from_jp_nums).to eq("1")
         expect("三十六".convert_from_jp_nums).to eq("36")
@@ -17,7 +17,7 @@ describe String do
         expect("千".convert_from_jp_nums).to eq("1000")
       end
 
-      context 'converts from japanese numerals with large unit characters' do
+      context 'with large unit characters' do
         it 'converts from valid numbers' do
           expect("一万".convert_from_jp_nums).to eq("10000")
           expect("六億".convert_from_jp_nums).to eq("600000000")
@@ -31,7 +31,7 @@ describe String do
       end
     end
 
-    context 'with sentences' do
+    context 'in sentences' do
       it 'converts date' do
         expect("十二月三十一日".convert_from_jp_nums).to eq("12月31日")
       end
