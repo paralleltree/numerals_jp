@@ -1,4 +1,4 @@
-module NumeralsJp::Converter
+module NumeralsJp::StringConverter
   include NumeralsJp::Constant
 
   DETECT_PATTERN = /([#{NUMERALS}#{SMALL_FACTORS.keys.join}]+[#{LARGE_FACTORS.keys.join}]?)+/
