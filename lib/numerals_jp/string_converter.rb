@@ -6,7 +6,7 @@ module NumeralsJp::StringConverter
   SMALL_EXTRACT_PATTERN = /(([#{NUMERALS}])?([#{SMALL_FACTORS.keys.join}])?)/
 
   module_function
-  def convert_from_jp_nums(str)
+  def jp_to_num(str)
     str.gsub(DETECT_PATTERN) do |s|
       s.scan(LARGE_EXTRACT_PATTERN).map { |m|
         m.first.scan(SMALL_EXTRACT_PATTERN).reject { |m| m.first.empty? }.map { |m|
