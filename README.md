@@ -43,6 +43,15 @@ This method just replaces japanese numerals with arabic numerals.
 # => "12月31日"
 ```
 
+### Convert to Japanese numerals
+```ruby
+106.to_jp
+# => "百六"
+
+19937.to_jp
+# => "一万九千九百三十七"
+```
+
 ## Roadmap
 
   * Support converting from japanese numerals without factor units.
