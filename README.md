@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/numerals_jp.svg)](https://badge.fury.io/rb/numerals_jp)
 [![Build Status](https://travis-ci.org/paralleltree/numerals_jp.svg?branch=master)](https://travis-ci.org/paralleltree/numerals_jp)
 
-A number converting library for japanese.
+A numerals library for japanese.
 
 This library converts between arabic numerals and japanese numerals  
 which are often used(i.e., from 1 to 9,999,999,999,999,999).
@@ -54,9 +54,14 @@ This method just replaces japanese numerals with arabic numerals.
 
 ## Roadmap
 
+Done:
+
+  * Support converting from integer to japanese numerals.
+
+Pending:
+
   * Support converting from japanese numerals without factor units.
   * Support converting from arabic numerals with japanese factor units.
-  * Support converting from integer to japanese numerals.
 
 ## Other Integrations
 
