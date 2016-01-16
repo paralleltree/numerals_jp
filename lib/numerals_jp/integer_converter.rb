@@ -1,7 +1,17 @@
+# Represents conversions from Integer.
 module NumeralsJp::IntegerConverter
   include NumeralsJp::Constant
 
   module_function
+
+  # Converts positive integer which is less than 10^16 to japanese numerals.
+  #
+  # @example
+  #   to_jp(106) # => "百六"
+  #
+  # @param i [Integer] the integer to convert
+  # @return [String] the converted string
+  # @raise [ArgumentError] if the integer is not positive or less than 10^16
   def to_jp(i)
     raise ArgumentError.new("Argument out of range.") unless i > 0 && i < 10 ** 16
 
@@ -23,6 +33,16 @@ module NumeralsJp::IntegerConverter
     end
   end
 
+  # Splits the given integer into specified digits from lower digits.
+  #
+  # @example split each digit
+  #   split_digits(1234, 1) # => [4, 3, 2, 1]
+  # @example split 4 digits each
+  #   split_digits(1234567, 4) # => [4567, 123]
+  #
+  # @param i [Integer] the integer to split
+  # @param limit [Integer] the number of digits to split each
+  # @return [Array<Integer>] an Array of split integers
   def split_digits(i, limit)
     [].tap do |arr|
       while i > 0
