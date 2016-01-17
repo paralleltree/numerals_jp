@@ -8,7 +8,7 @@ module NumeralsJp::StringConverter
 
   module_function
 
-  # Replaces japanese numerals to arabic numerals in given string.
+  # Replaces japanese numerals with arabic numerals in given string.
   #
   # @example
   #   jp_to_num("三十六") # => "36"

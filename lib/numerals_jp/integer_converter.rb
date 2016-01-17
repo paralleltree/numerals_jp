@@ -13,7 +13,7 @@ module NumeralsJp::IntegerConverter
   # @return [String] the converted string
   # @raise [ArgumentError] if the integer is not positive or less than 10^16
   def to_jp(i)
-    raise ArgumentError.new("Argument out of range.") unless i > 0 && i < 10 ** 16
+    raise ArgumentError.new("the integer out of range") unless i > 0 && i < 10 ** 16
 
     if i < 10000
       split_digits(i, 1)
