@@ -67,6 +67,7 @@ Pending:
 
 [![Code Climate](https://codeclimate.com/github/paralleltree/numerals_jp/badges/gpa.svg)](https://codeclimate.com/github/paralleltree/numerals_jp)
 [![Coverage Status](https://coveralls.io/repos/paralleltree/numerals_jp/badge.svg?branch=master&service=github)](https://coveralls.io/github/paralleltree/numerals_jp?branch=master)
+[![Inline docs](http://inch-ci.org/github/paralleltree/numerals_jp.svg?branch=master)](http://inch-ci.org/github/paralleltree/numerals_jp)
 
 ## Contributing
 
