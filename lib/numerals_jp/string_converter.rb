@@ -1,3 +1,4 @@
+# Represents conversions from String.
 module NumeralsJp::StringConverter
   include NumeralsJp::Constant
 
@@ -6,6 +7,14 @@ module NumeralsJp::StringConverter
   SMALL_EXTRACT_PATTERN = /(([#{NUMERALS}])?([#{SMALL_FACTORS.keys.join}])?)/
 
   module_function
+
+  # Replaces japanese numerals with arabic numerals in given string.
+  #
+  # @example
+  #   jp_to_num("三十六") # => "36"
+  #
+  # @param str [String] the string to convert
+  # @return [String] the converted string
   def jp_to_num(str)
     str.gsub(DETECT_PATTERN) do |s|
       s.scan(LARGE_EXTRACT_PATTERN).map { |m|

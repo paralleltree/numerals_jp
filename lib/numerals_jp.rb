@@ -5,5 +5,6 @@ require "numerals_jp/integer_converter"
 require "numerals_jp/extension/string"
 require "numerals_jp/extension/integer"
 
+# Represents a root of the Gem.
 module NumeralsJp
 end

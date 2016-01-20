@@ -1,3 +1,4 @@
+# Represents common constant variables.
 module NumeralsJp::Constant
   NUMERALS = "一二三四五六七八九"
   SMALL_FACTORS = {

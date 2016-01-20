@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/numerals_jp.svg)](https://badge.fury.io/rb/numerals_jp)
 [![Build Status](https://travis-ci.org/paralleltree/numerals_jp.svg?branch=master)](https://travis-ci.org/paralleltree/numerals_jp)
 
-A numerals library for japanese.
+A numerals library for japanese
 
 This library converts between arabic numerals and japanese numerals  
 which are often used(i.e., from 1 to 9,999,999,999,999,999).
@@ -67,6 +67,7 @@ Pending:
 
 [![Code Climate](https://codeclimate.com/github/paralleltree/numerals_jp/badges/gpa.svg)](https://codeclimate.com/github/paralleltree/numerals_jp)
 [![Coverage Status](https://coveralls.io/repos/paralleltree/numerals_jp/badge.svg?branch=master&service=github)](https://coveralls.io/github/paralleltree/numerals_jp?branch=master)
+[![Inline docs](http://inch-ci.org/github/paralleltree/numerals_jp.svg?branch=master)](http://inch-ci.org/github/paralleltree/numerals_jp)
 
 ## Contributing
 
