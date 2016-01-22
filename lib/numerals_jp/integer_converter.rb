@@ -4,7 +4,7 @@ module NumeralsJp::IntegerConverter
 
   module_function
 
-  # Converts positive integer which is less than 10^16 to japanese numerals.
+  # Converts positive integer which is less than 10^16 to Japanese numerals.
   #
   # @example
   #   to_jp(106) # => "百六"

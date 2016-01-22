@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["paralleltree"]
   spec.email         = ["paralleltree@outlook.com"]
 
-  spec.summary       = %q{A numerals library for japanese}
-  spec.description   = %q{Number conversion between arabic numerals and japanese numerals}
+  spec.summary       = %q{A numerals library for Japanese}
+  spec.description   = %q{Number conversion between Arabic numerals and Japanese numerals}
   spec.homepage      = "https://github.com/paralleltree/numerals_jp"
   spec.license       = "MIT"
   spec.required_ruby_version = '~> 2.0'

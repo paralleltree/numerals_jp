@@ -3,9 +3,9 @@
 [![Gem Version](https://badge.fury.io/rb/numerals_jp.svg)](https://badge.fury.io/rb/numerals_jp)
 [![Build Status](https://travis-ci.org/paralleltree/numerals_jp.svg?branch=master)](https://travis-ci.org/paralleltree/numerals_jp)
 
-A numerals library for japanese
+A numerals library for Japanese
 
-This library converts between arabic numerals and japanese numerals  
+This library converts between Arabic numerals and Japanese numerals  
 which are often used(i.e., from 1 to 9,999,999,999,999,999).
 
 ## Installation
@@ -30,13 +30,13 @@ Or install it yourself as:
 require 'numerals_jp'
 ```
 
-### Convert from japanese numerals
+### Convert from Japanese numerals
 ```ruby
 "三十六".jp_to_num
 # => "36"
 ```
 
-This method just replaces japanese numerals with arabic numerals.
+This method just replaces Japanese numerals with Arabic numerals.
 
 ```ruby
 "十二月三十一日".jp_to_num
@@ -56,12 +56,12 @@ This method just replaces japanese numerals with arabic numerals.
 
 Done:
 
-  * Support converting from integer to japanese numerals.
+  * Support converting from integer to Japanese numerals.
 
 Pending:
 
-  * Support converting from japanese numerals without factor units.
-  * Support converting from arabic numerals with japanese factor units.
+  * Support converting from Japanese numerals without factor units.
+  * Support converting from Arabic numerals with Japanese factor units.
 
 ## Other Integrations
 

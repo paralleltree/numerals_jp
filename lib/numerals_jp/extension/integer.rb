@@ -1,6 +1,6 @@
 # Extensions of Integer class
 class Integer
-  # Converts positive integer which is less than 10^16 to japanese numerals.
+  # Converts positive integer which is less than 10^16 to Japanese numerals.
   #
   # @example
   #   106.to_jp # => "百六"

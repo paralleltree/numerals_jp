@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe String do
   describe '#jp_to_num' do
-    context 'when only japanese numerals' do
-      it 'converts from japanese numerals' do
+    context 'when only Japanese numerals' do
+      it 'converts from Japanese numerals' do
         expect("一".jp_to_num).to eq("1")
         expect("三十六".jp_to_num).to eq("36")
         expect("四千九十六".jp_to_num).to eq("4096")
